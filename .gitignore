@@ -1,2 +1,6 @@
 Onion.Domain/.vs/*
-Onion.Api/obj/Debug/net9.0/staticwebassets.removed.txt
+Onion.Api/obj/*
+Onion.Application/obj/*
+Onion.Tests.Integration/obj/*
+Onion.Infrastructure/obj/*
+Onion.Tests.Unit/obj/*
