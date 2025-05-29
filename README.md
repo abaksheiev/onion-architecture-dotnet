@@ -1,17 +1,17 @@
 Article:
 
-# MyAOnionpp
+# MyOnionApp
 
 A clean, modular solution following the **Onion Architecture** pattern, built with ASP.NET Core. This structure separates concerns across layers to improve maintainability, testability, and scalability.
 
 ## 🧅 Architecture Overview
 
 ```
-/MyApp
-├── MyApp.Domain // Core business logic and entities (pure domain layer)
-├── MyApp.Application // Application services, interfaces, DTOs, business rules
-├── MyApp.Infrastructure // Implementations for data access, external services, etc.
-└── MyApp.Web // Web API layer (entry point)
+/Onion
+├── Onion.Domain // Core business logic and entities (pure domain layer)
+├── Onion.Application // Application services, interfaces, DTOs, business rules
+├── Onion.Infrastructure // Implementations for data access, external services, etc.
+└── Onion.Web // Web API layer (entry point)
 ```
 
 
